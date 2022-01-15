@@ -1,6 +1,6 @@
 # CS31 Winter22 Project 2: Automated Testing
 
-IN PROGRESS
+### WIP
 
 >**DISCLAIMER:** these testing scripts are by no means a measure of *official* correctness of your program.
 It is simply my way of automatically testing my own program according to the project spec.
