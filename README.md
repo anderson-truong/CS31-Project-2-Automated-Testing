@@ -19,15 +19,13 @@ I recommend using the regular version since the verbose version was more for deb
 2. Download `test_WINDOWS.sh` from this repository.
 
 3. Compile your `payment.cpp` file to an executable `.exe`.
-If you use an IDE like Visual Studio, you can build your project and then find the `.exe` file in a folder somewhere
+If you use an IDE like Visual Studio, you can build your project and then find the `.exe` file in a folder somewhere. For example, mine is in `Project2/Debug/Project2.exe`. Yours might be in something called `source/repos/YourProjectName/Debug/YourProjectName.exe`.
 
-4. For example, mine is in `Project2/Debug/Project2.exe`
+4. Rename this executable file to `payment.exe`.
 
-5. Rename this executable file to `payment.exe`.
+5. Put `test_WINDOWS.sh` and `payment.exe` in the same folder. 
 
-6. Put `test_WINDOWS.sh` and `payment.exe` in the same folder. 
-
-7. Then, click on the shell script and run it.
+6. Then, click on the shell script and run it.
 
 ### Linux Setup (UCLA servers with the g31 compiler)
 1. Download `test_LINUX.sh` from this repository.
