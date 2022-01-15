@@ -71,7 +71,7 @@ If your final calculation is incorrect for let's say California on April 2, the 
 If you end up with no calculation errors, this section WILL NOT print out anything (on the non-verbose script).
 
 # Included Test Cases:
-The script iterates over the valid state names, months, days, and years, and then runs the compiled project .cpp file with those inputs.
+The script iterates over some valid/invalid state names, months, days, and years, and then runs the compiled project .cpp file with those inputs.
 
 **States Tested**
 - Valid (50): All 50 states. **Ex:** West Virginia, Arizona, North Dakota, ...
