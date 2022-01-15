@@ -2,5 +2,5 @@
 
 IN PROGRESS
 
-Disclaimer: these testing scripts are by no means a measure of *official* correctness of your program.
+**DISCLAIMER:** these testing scripts are by no means a measure of *official* correctness of your program.
 It is simply my way of automatically testing my program.
