@@ -1,6 +1,6 @@
 # CS31 Winter22 Project 2: Automated Testing
 
->**DISCLAIMER:** these testing scripts are by no means a measure of *official* correctness of your program.
+>**DISCLAIMER:** these testing scripts are by no means an *official* measure of correctness of your program.
 It is simply my way of automatically testing my own program according to the project spec.
 You should definitely use your own test cases, but if you do use my script, I am not responsible if your program misses certain cases.
 
