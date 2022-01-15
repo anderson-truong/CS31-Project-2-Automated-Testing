@@ -57,7 +57,7 @@ This stage will test the edge cases of the tax-free day range for each state tha
 
 For example, if your program fails to do a tax-free calculation for Alabama on July, 15 2020, the script will print out `Error! Tax-Free Day not handled for: Alabama July 15 2020`
 
-If it works, it will print out `July 15 Correct!\n"
+If it works, it will print out `July 15 Correct!`
 
 ### 5. After-Tax Price Validation
 This stage will compare your program's final calculation for a purchase of $30.56 against the actual value. It will also test whether your user-prompting text and output line are correct
