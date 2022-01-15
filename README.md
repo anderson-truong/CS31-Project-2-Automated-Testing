@@ -60,7 +60,7 @@ For example, if your program fails to do a tax-free calculation for Alabama on J
 If it works, it will print out `July 15 Correct!`
 
 ### 5. After-Tax Price Validation
-This stage will compare your program's final calculation for a purchase of $30.56 against the actual value. It will also test whether your user-prompting text and output line are correct
+This stage will compare your program's final calculation for a purchase of $30.56 against the actual value. It will also test whether your user-prompting text and output line are correct.
 
 If your prompt text (e.g. State Name:, Purchase Amount:, etc) is incorrect, the script will print `Your prompt text is incorrect!`. **Otherwise, it will NOT print anything**.
 
