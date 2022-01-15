@@ -8,8 +8,8 @@ You should definitely use your own test cases, but if you do use my script, I am
 
 # How to use:
 ### There are two versions for each OS: 
-1. A regular version (e.g. `test_LINUX.sh`)
-2. A version with more output messages (e.g. `test_LINUX_verbose.sh`)
+1. A regular version (e.g. `test_XXX.sh`)
+2. A version with more output messages (e.g. `test_XXX_verbose.sh`)
 
 I recommend using the regular version since the verbose version was more for debugging the script.
 
