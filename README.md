@@ -25,7 +25,7 @@ If you use an IDE like Visual Studio, you can build your project and then find t
 
 5. Put `test_WINDOWS.sh` and `payment.exe` in the same folder. 
 
-6. Then, click on the shell script and run it.
+6. Click on the shell script to run it.
 
 ### Linux Setup (UCLA servers with the g31 compiler)
 1. Download `test_LINUX.sh` from this repository.
