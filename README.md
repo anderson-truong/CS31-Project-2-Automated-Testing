@@ -32,7 +32,7 @@ If you use an IDE like Visual Studio, you can build your project and then find t
 
 3. Upload your `payment.cpp` file and the `test_LINUX.sh` script to the Linux server through WinSCP or the Remote Desktop Connection (Work Resources)
 
-4. Move the `payment.cpp` file and `test_LINUX.sh` to the Z: folder (the folder's name should be your usernam)
+4. Move the `payment.cpp` file and `test_LINUX.sh` to the Z: folder (the folder's name should be your username)
 
 5. Compile your `payment.cpp` folder to `payment`. You can do this with `g31 -o payment payment.cpp`
 
