@@ -70,7 +70,7 @@ If your final calculation is incorrect for let's say California on April 2, the 
 
 If you end up with no calculation errors, this section WILL NOT print out anything (on the non-verbose script).
 
-> NOTE: If you see all these three of these errors, your error is most likely with the grammar of your prompt text. If you see two, it is most likely the output line text.
+> NOTE: If you see all 3 of these errors, your error is most likely with the grammar of your prompt text. If you see 2, it is most likely the output line text.
 
 # Included Test Cases:
 The script iterates over some valid/invalid state names, months, days, and years, and then runs the compiled project .cpp file with those inputs.
