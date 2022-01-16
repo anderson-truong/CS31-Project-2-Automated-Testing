@@ -30,7 +30,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid state!" ]
 then
-	printf "Invalid state not handled for. Tested: %s" "west virginia"
+	printf "Invalid state not handled for. Tested: %s\n" "west virginia"
 else
 	echo Correct!
 fi
@@ -41,7 +41,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid state!" ]
 then
-	printf "Invalid state not handled for. Tested: %s" "north america"
+	printf "Invalid state not handled for. Tested: %s\n" "north america"
 else
 	echo Correct!
 fi
@@ -54,7 +54,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid amount!" ]
 then
-	printf "Invalid amount not handled for. Tested: %s" "$invalidpurchase1"
+	printf "Invalid amount not handled for. Tested: %s\n" "$invalidpurchase1"
 else
 	echo Correct!
 fi
@@ -65,7 +65,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid amount!" ]
 then
-	printf "Invalid amount not handled for. Tested: %s" "$invalidpurchase2"
+	printf "Invalid amount not handled for. Tested: %s\n" "$invalidpurchase2"
 else
 	echo Correct!
 fi
@@ -78,7 +78,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid month!" ]
 then
-	printf "Invalid month not handled for. Tested: %s" "jan"
+	printf "Invalid month not handled for. Tested: %s\n" "jan"
 else
 	echo Correct!
 fi
@@ -89,7 +89,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid month!" ]
 then
-	printf "Invalid month not handled for. Tested: %s" "January 5"
+	printf "Invalid month not handled for. Tested: %s\n" "January 5"
 else
 	echo Correct!
 fi
@@ -102,7 +102,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid day!" ]
 then
-	printf "Invalid day not handled for. Tested: %s" "0"
+	printf "Invalid day not handled for. Tested: %s\n" "0"
 else
 	echo Correct!
 fi
@@ -113,7 +113,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid day!" ]
 then
-	printf "Invalid day not handled for. Tested: %s" "32"
+	printf "Invalid day not handled for. Tested: %s\n" "32"
 else
 	echo Correct!
 fi
@@ -126,7 +126,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid year!" ]
 then
-	printf "Invalid year not handled for. Tested: %s" "0"
+	printf "Invalid year not handled for. Tested: %s\n" "0"
 else
 	echo Correct!
 fi
@@ -137,7 +137,7 @@ TEST=$(printf "$inputstr" | $filename)
 outputline=${TEST#"$prompt"}
 if [ "$outputline" != "Invalid year!" ]
 then
-	printf "Invalid year not handled for. Tested: %s" "2026"
+	printf "Invalid year not handled for. Tested: %s\n" "2026"
 else
 	echo Correct!
 fi
