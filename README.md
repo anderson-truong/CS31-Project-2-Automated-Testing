@@ -12,7 +12,7 @@ You should definitely use your own test cases, but if you do use my script, I am
 I recommend using the regular version since the verbose version was more for debugging the script.
 
 ### Windows Setup
-1. Install [Git Bash](http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download) (or anything that allows you to run .sh scripts). You should be able to run shell `.sh` scripts now.
+1. Install [Git Bash](https://git-scm.com/download/win) (or anything that allows you to run .sh scripts). You should be able to run shell `.sh` scripts now.
 
 2. Download `test_WINDOWS.sh` from this repository.
 
