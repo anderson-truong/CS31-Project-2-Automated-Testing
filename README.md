@@ -38,7 +38,9 @@ If you use an IDE like Visual Studio, you can build your project and then find t
 
 6. Open putty and connect to `lnxsrv07.seas.ucla.edu`.
 
-7. Run the shell script with `./text_LINUX.sh`
+7. Type in `chmod u+x ./test_LINUX.sh`. This will give the script permission to run.
+
+8. Run the shell script with `./text_LINUX.sh`
 
 # How to Interpret Results
 The script runs through 3 testing stages: **Input Invalidation**, **Tax Free Day Validation**, and **After-Tax Price Validation**.
